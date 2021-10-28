@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Kiba_Android框架</string>
+    <string name="app_describe">Kiba_Android框架</string>
+    <string name="action_settings">设置</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">下一页</string>
+    <string name="previous">上一页</string>
+    <string name="company">Kiba518</string>
+
+    <string name="regex_phone_number">^((13[0-9])|(14[5,7])|(15[0-3,5-9])|(16[6])|(17[0,1,3,5-8])|(18[0-9])|(19[8,9]))\\d{8}$</string>
+    <string name="regex_verify_code">^\\d{4}$</string>
+</resources>
