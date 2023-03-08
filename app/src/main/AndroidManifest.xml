@@ -17,6 +17,10 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Framework">
+        <service
+            android:name=".services.MyService"
+            android:enabled="true"
+            android:exported="true" />
         <activity
             android:name=".activity.main.MainActivity"
             android:label="主页"
