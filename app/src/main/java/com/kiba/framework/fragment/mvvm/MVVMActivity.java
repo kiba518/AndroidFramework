@@ -20,7 +20,7 @@ public class MVVMActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_mvvm);
 
         testViewModel = new ViewModelProvider(this).get(TestViewModel.class);
         MutableLiveData<TestEntity> testViewModelData = testViewModel.getTestEntityLiveData();
@@ -30,7 +30,7 @@ public class MVVMActivity extends AppCompatActivity {
             public void onChanged(TestEntity testEntity) {
 
             }
-        }); 
+        });
 
     }
 
